@@ -1,0 +1,96 @@
+body
+{
+   background-image:radial-gradient(rgb(69, 180, 245), rgb(158, 196, 158));
+}
+
+h1
+{
+   text-size-adjust: 20px;
+   text-align: center;
+   font-family: cursive;/* Not cursive, but I like it*/
+
+}
+
+h6
+{
+   font-family: cursive;
+   text-align: center;
+
+}
+
+nav
+{
+   padding: 4em 15em;
+   text-decoration: solid;
+   background-color: rgba(161, 206, 245, 0.24);
+   color: rgb(54, 54, 54);
+   border: 5px solid black;
+   border-top-left-radius: 2em 2em;
+   border-top-right-radius: 2em 2em;
+   border-bottom-left-radius: 2em 2em;
+   border-bottom-right-radius: 2em 2em;
+}
+
+footer
+{
+   background-color: rgb(88, 53, 53);
+   border-top-left-radius: 2em 2em;
+   border-top-right-radius: 2em 2em;
+   border-bottom-left-radius: 2em 2em;
+   border-bottom-right-radius: 2em 2em;
+
+}
+
+h2
+{
+   font-family: cursive;
+   text-align: center;
+
+}
+
+p
+{
+   text-align: center;
+   font-size: large;
+   font-family: cursive;
+   font-weight: bold;
+
+}
+
+button
+{
+   display: block;   
+   margin: auto;
+   background-color: black;
+   color: bisque;
+   border-style: solid;
+   border-color: bisque;
+   text-align: center;
+   border-style: outset;
+   border-radius: 10px;
+   width: 100px;
+   height: 25px;
+   cursor: grab;
+
+}
+
+#PushButton
+{
+   color: brown;
+   width: 100px;
+   height: 100px;
+   cursor: grab;
+
+}
+
+#HoverButton:hover
+{
+   color: coral;
+   cursor: grab;
+   transition-duration: .5s;
+
+}
+
+/* I don't like how the buttons 
+are not centered. if you could help 
+me on that, that would be great.*/
